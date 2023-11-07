@@ -207,7 +207,7 @@ func main() {
 
 	// Option 1: Replace p1 Association.
 	// Problem here is that the previous association is not deleted but only the fKey is removed
-	var c2 []Car = []Car{
+	var c2 = []Car{
 		{
 			Name:  "Car5",
 			Brand: "Brand5",
@@ -234,7 +234,7 @@ func main() {
 	}
 
 	// Append p1 Association
-	var c3 []Car = []Car{
+	var c3 = []Car{
 		{
 			Name:  "Car7",
 			Brand: "Brand7",
